@@ -16,7 +16,8 @@ public class SomethingTest {
 	public void test() {
 		// Implement your test cases
 		// START YOUR CODE
-
+    assertEquals(155, Something.someMethod(72, 36, 31, 16));
+    assertEquals(0, Something.someMethod(1, 2, 3, 4));
 
 		// END YOUR CODE
 	}
